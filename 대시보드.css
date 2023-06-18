@@ -1,0 +1,12 @@
+.container{
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(2, 50%);/* 2개의 열을 가지도록 설정 */
+    grid-auto-rows: minmax(200px, auto);
+    grid-gap: 10px;
+}
+
+.memo{
+    grid-row: 1/3;
+}  
+

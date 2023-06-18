@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vw;
+    margin: 0;
+    background-color: black;
+} 
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.memo {
+    background-color: white;
+}
+
+.fifa {
+    background-color: white;
+}
+
+.overwatch{
+    background-color: white;
+} 
+
+.header{
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: darkgray;
+}
+
